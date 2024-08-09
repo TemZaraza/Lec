@@ -3,7 +3,7 @@ body {
 }
 .heading {
 	height: 20px;
-	margin: 25px auto;
+	margin: 10px auto 30px auto;
 }
 .heading__title {
 	color: brown;
