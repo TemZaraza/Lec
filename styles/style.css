@@ -1,0 +1,51 @@
+body {
+	background-color: black;
+}
+.heading {
+	height: 20px;
+	margin: 25px auto;
+}
+.heading__title {
+	color: brown;
+	text-align: center;
+	font-style: italic;
+	height: 20px;
+}
+
+.main {
+	width: 100%;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.Lec-img {
+	width: 700px;
+	height: 100%;
+	margin: 10px auto;
+	display: block;
+	border: 2px solid brown;
+	border-radius: 10px;	
+}
+.Lec-text {
+	width: 680px;
+	margin: 0px auto;
+	padding: 10px;
+	color: black;
+	font-size: 25px;
+	font-style: italic;
+	text-align: center;
+	background-color: rgba(206, 199, 199, 0.856);
+	border-radius: 10px;
+	border: 2px solid brown;
+}
+.Lec-contact {
+	width: 680px;
+	color: black;
+	background-color: brown;
+	margin: 10px auto;
+	border-radius: 10px;
+	padding: 10px;
+	font-style: italic;
+	font-size: 25px;	
+	text-align: center;
+}
