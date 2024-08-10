@@ -1,14 +1,53 @@
 body {
 	background-color: black;
 }
+
+@media screen and (min-width: 700px) {
+	.Lec-img {
+		width: 77%;
+		}
+	.Lec {
+		width: 77%;
+	}
+	.Lec-contact {
+		width: 75%;
+		padding: 1% 1%;
+	}
+	.Lec-text {
+		width: 75%;
+		padding: 1% 1%;
+	}
+	}
+
+	@media screen and (max-width: 700px) {
+		.Lec {
+			width: 95%;
+		}
+		.Lec-img {
+			width: 95%;
+		}
+		.Lec-contact {
+			width: 93%;
+			padding: 1% 1%;
+		}
+		.Lec-text {
+			width: 93%;
+			padding: 1% 1%;
+		}
+	}
+
+.Lec {
+	margin: 0 auto;
+}
 .heading {
-	height: 100%;
-	margin: 10px auto auto auto;
+	width: 83%;
+	margin: 10px auto;
 }
 .heading__title {
-	width: 100%;
-	margin: 20px auto;
-	color: brown;
+	width: 83%;
+	margin: auto;
+
+	color: #99772e;
 	text-align: center;
 	font-style: italic;
 	height: 100%;
@@ -18,36 +57,42 @@ body {
 	width: 100%;
 	margin: 10px auto;
 	align-items: center;
+	display: flex;
+	flex-direction: column;
 }
 
+
+
 .Lec-img {
-	width: 100%;
+
 	height: 100%;
-	margin: 10px auto;
+	margin: 5px auto;
 	display: block;
-	border: 2px solid brown;
+	border: 2px solid #99772e;
 	border-radius: 10px;	
 }
 .Lec-text {
-	width: 95%;
-	margin: 0px auto;
-	padding: 10px;
+	margin: 10px auto;
+	padding: 1% 1%;
 	color: black;
 	font-size: 25px;
 	font-style: italic;
 	text-align: center;
-	background-color: rgba(206, 199, 199, 0.856);
+	background-color: rgb(255, 255, 255);
 	border-radius: 10px;
-	border: 2px solid brown;
+	border: 2px solid #99772e;
 }
 .Lec-contact {
-	width: 50%px;
+	
+	height: fit-content;
 	color: black;
-	background-color: brown;
+	background-color: #99772e;
 	margin: 10px auto;
+	border: 2px solid rgb(71, 46, 8);
 	border-radius: 10px;
-	padding: 10px;
 	font-style: italic;
 	font-size: 25px;	
 	text-align: center;
 }
+
+
