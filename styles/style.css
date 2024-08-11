@@ -7,15 +7,15 @@ body {
 		width: 700px;
 		}
 	.Lec {
-		width: 702px;
+		width: 700px;
 	}
 	.Lec-contact {
-		width: 694px;
-		padding: 5px 5px;
+		width: 695px;
+		padding: 10px 5px;
 	}
 	.Lec-text {
-		width: 690px;
-		padding: 5px 5px;
+		width: 670px;
+		padding: 10px 15px;
 	}
 	}
 
@@ -46,7 +46,7 @@ body {
 .heading__title {
 	width: 83%;
 	margin: auto;
-
+	font-family: 'Ubuntu';
 	color: #99772e;
 	text-align: center;
 	font-style: italic;
@@ -69,15 +69,14 @@ body {
 	border-radius: 10px;	
 }
 .Lec-text {
-	margin: 5px auto;
-	padding: 5px 5px;
+	margin: 5px auto;	
 	color: black;
 	font-size: 25px;
-	font-style: italic;
 	text-align: center;
 	background-color: rgb(255, 255, 255);
 	border-radius: 10px;
 	border: 2px solid #99772e;
+	font-family: 'Ubuntu';
 }
 .Lec-contact {
 	height: fit-content;
@@ -86,7 +85,7 @@ body {
 	margin: 0 auto;
 	border: 2px solid rgb(71, 46, 8);
 	border-radius: 10px;
-	font-style: italic;
+	font-family: 'Ubuntu';
 	font-size: 25px;
 	text-align: center;
 }
@@ -103,4 +102,9 @@ body {
 	color: darkblue;
 }
 
-
+@font-face {
+  font-family: "Ubuntu";
+  src: url('../fonts/Ubuntu-Regular.ttf');
+  font-style: normal; 
+  font-weight: normal; 
+}
