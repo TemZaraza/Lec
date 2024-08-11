@@ -4,18 +4,18 @@ body {
 
 @media screen and (min-width: 700px) {
 	.Lec-img {
-		width: 77%;
+		width: 700px;
 		}
 	.Lec {
-		width: 77%;
+		width: 702px;
 	}
 	.Lec-contact {
-		width: 75%;
-		padding: 1% 1%;
+		width: 694px;
+		padding: 5px 5px;
 	}
 	.Lec-text {
-		width: 75%;
-		padding: 1% 1%;
+		width: 690px;
+		padding: 5px 5px;
 	}
 	}
 
@@ -27,7 +27,7 @@ body {
 			width: 95%;
 		}
 		.Lec-contact {
-			width: 93%;
+			width: 89%;
 			padding: 1% 1%;
 		}
 		.Lec-text {
@@ -55,16 +55,13 @@ body {
 
 .main {
 	width: 100%;
-	margin: 10px auto;
+	margin: 0 auto;
 	align-items: center;
 	display: flex;
 	flex-direction: column;
 }
 
-
-
 .Lec-img {
-
 	height: 100%;
 	margin: 5px auto;
 	display: block;
@@ -72,8 +69,8 @@ body {
 	border-radius: 10px;	
 }
 .Lec-text {
-	margin: 10px auto;
-	padding: 1% 1%;
+	margin: 5px auto;
+	padding: 5px 5px;
 	color: black;
 	font-size: 25px;
 	font-style: italic;
@@ -83,16 +80,27 @@ body {
 	border: 2px solid #99772e;
 }
 .Lec-contact {
-	
 	height: fit-content;
 	color: black;
 	background-color: #99772e;
-	margin: 10px auto;
+	margin: 0 auto;
 	border: 2px solid rgb(71, 46, 8);
 	border-radius: 10px;
 	font-style: italic;
-	font-size: 25px;	
+	font-size: 25px;
 	text-align: center;
+}
+
+.Lec-contacts {
+	padding-left: 0;
+	margin: 0 auto;
+	list-style-type: none;
+	text-align: center;
+}
+
+.Lec-vk {
+	text-decoration: none;
+	color: darkblue;
 }
 
 
