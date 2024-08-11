@@ -12,10 +12,12 @@ body {
 	.Lec-contact {
 		width: 695px;
 		padding: 10px 5px;
+		font-size: 25px;
 	}
 	.Lec-text {
 		width: 670px;
 		padding: 10px 15px;
+		font-size: 25px;
 	}
 	}
 
@@ -29,10 +31,13 @@ body {
 		.Lec-contact {
 			width: 89%;
 			padding: 1% 1%;
+			font-size: 20px;
+
 		}
 		.Lec-text {
 			width: 93%;
 			padding: 1% 1%;
+			font-size: 20px;
 		}
 	}
 
@@ -71,7 +76,7 @@ body {
 .Lec-text {
 	margin: 5px auto;	
 	color: black;
-	font-size: 25px;
+	
 	text-align: center;
 	background-color: rgb(255, 255, 255);
 	border-radius: 10px;
@@ -86,7 +91,6 @@ body {
 	border: 2px solid rgb(71, 46, 8);
 	border-radius: 10px;
 	font-family: 'Ubuntu';
-	font-size: 25px;
 	text-align: center;
 }
 
