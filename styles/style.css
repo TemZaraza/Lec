@@ -5,49 +5,57 @@ body {
 @media screen and (min-width: 700px) {
 	.Lec-img {
 		width: 700px;
-		}
+	}
+
 	.Lec {
 		width: 700px;
 	}
+
 	.Lec-contact {
 		width: 695px;
 		padding: 10px 5px;
 		font-size: 25px;
 	}
+
 	.Lec-text {
 		width: 670px;
 		padding: 10px 15px;
 		font-size: 25px;
 	}
+}
+
+@media screen and (max-width: 700px) {
+	.Lec {
+		width: 95%;
 	}
 
-	@media screen and (max-width: 700px) {
-		.Lec {
-			width: 95%;
-		}
-		.Lec-img {
-			width: 95%;
-		}
-		.Lec-contact {
-			width: 89%;
-			padding: 1% 1%;
-			font-size: 20px;
-
-		}
-		.Lec-text {
-			width: 93%;
-			padding: 1% 1%;
-			font-size: 20px;
-		}
+	.Lec-img {
+		width: 95%;
 	}
+
+	.Lec-contact {
+		width: 89%;
+		padding: 1% 1%;
+		font-size: 20px;
+
+	}
+
+	.Lec-text {
+		width: 93%;
+		padding: 1% 1%;
+		font-size: 20px;
+	}
+}
 
 .Lec {
 	margin: 0 auto;
 }
+
 .heading {
 	width: 83%;
 	margin: 10px auto;
 }
+
 .heading__title {
 	width: 83%;
 	margin: auto;
@@ -71,22 +79,25 @@ body {
 	margin: 5px auto;
 	display: block;
 	border: 2px solid #99772e;
-	border-radius: 10px;	
+	border-radius: 10px;
 }
+
 .Lec-text {
-	margin: 5px auto;	
+	margin: 5px auto;
 	color: black;
-	
+
 	text-align: center;
 	background-color: rgb(255, 255, 255);
 	border-radius: 10px;
 	border: 2px solid #99772e;
 	font-family: 'Ubuntu';
 }
+
 .Lec-contact {
 	height: fit-content;
 	color: black;
-	background-color: #99772e;
+	background-color: #d6ae57;
+
 	margin: 0 auto;
 	border: 2px solid rgb(71, 46, 8);
 	border-radius: 10px;
@@ -107,8 +118,8 @@ body {
 }
 
 @font-face {
-  font-family: "Ubuntu";
-  src: url('../fonts/Ubuntu-Regular.ttf') format('truetype');
-  font-style: normal; 
-  font-weight: normal; 
+	font-family: "Ubuntu";
+	src: url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
 }
